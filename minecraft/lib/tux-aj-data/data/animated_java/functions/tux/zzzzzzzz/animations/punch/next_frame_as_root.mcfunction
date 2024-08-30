@@ -1,0 +1,1 @@
+function animated_java:tux/zzzzzzzz/animations/punch/tick_animation

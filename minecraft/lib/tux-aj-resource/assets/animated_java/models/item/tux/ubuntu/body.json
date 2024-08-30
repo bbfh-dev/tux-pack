@@ -1,0 +1,6 @@
+{
+	"parent": "animated_java:item/tux/default/body",
+	"textures": {
+		"0": "tux:entity/ubuntu"
+	}
+}

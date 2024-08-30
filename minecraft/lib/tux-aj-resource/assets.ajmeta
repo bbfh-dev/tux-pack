@@ -1,0 +1,32 @@
+{
+	"tux": {
+		"files": [
+			"assets/animated_java/models/empty.json",
+			"assets/animated_java/textures/item/transparent.png",
+			"assets/animated_java/models/item/tux/default/body.json",
+			"assets/animated_java/models/item/tux/default/head.json",
+			"assets/animated_java/models/item/tux/default/left_wing.json",
+			"assets/animated_java/models/item/tux/default/right_wing.json",
+			"assets/animated_java/models/item/tux/gentoo/head.json",
+			"assets/animated_java/models/item/tux/gentoo/left_wing.json",
+			"assets/animated_java/models/item/tux/gentoo/right_wing.json",
+			"assets/animated_java/models/item/tux/gentoo/body.json",
+			"assets/animated_java/models/item/tux/mint/head.json",
+			"assets/animated_java/models/item/tux/mint/left_wing.json",
+			"assets/animated_java/models/item/tux/mint/right_wing.json",
+			"assets/animated_java/models/item/tux/mint/body.json",
+			"assets/animated_java/models/item/tux/arch/head.json",
+			"assets/animated_java/models/item/tux/arch/left_wing.json",
+			"assets/animated_java/models/item/tux/arch/right_wing.json",
+			"assets/animated_java/models/item/tux/arch/body.json",
+			"assets/animated_java/models/item/tux/void/head.json",
+			"assets/animated_java/models/item/tux/void/left_wing.json",
+			"assets/animated_java/models/item/tux/void/right_wing.json",
+			"assets/animated_java/models/item/tux/void/body.json",
+			"assets/animated_java/models/item/tux/ubuntu/head.json",
+			"assets/animated_java/models/item/tux/ubuntu/left_wing.json",
+			"assets/animated_java/models/item/tux/ubuntu/right_wing.json",
+			"assets/animated_java/models/item/tux/ubuntu/body.json"
+		]
+	}
+}

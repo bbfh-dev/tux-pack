@@ -1,0 +1,6 @@
+{
+    "values": [
+        "animated_java:global/on_tick",
+        "tux:tick"
+    ]
+}

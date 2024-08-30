@@ -1,0 +1,1 @@
+execute if score @s aj.anim_time matches 0..11 run function animated_java:tux/zzzzzzzz/animations/run/tree/branch_0_11

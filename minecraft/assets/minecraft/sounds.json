@@ -1,0 +1,25 @@
+{
+    "entity.tux.ambient": {
+        "sounds": [
+            "entity/tux/ambient_0",
+            "entity/tux/ambient_1",
+            "entity/tux/ambient_2",
+            "entity/tux/ambient_3",
+            "entity/tux/ambient_4",
+            "entity/tux/ambient_5"
+        ],
+        "subtitle": "subtitles.tux.ambient"
+    },
+    "entity.tux.step": {
+        "sounds": [
+            "entity/tux/step_0",
+            "entity/tux/step_1",
+            "entity/tux/step_2",
+            "entity/tux/step_3",
+            "entity/tux/step_4",
+            "entity/tux/step_5",
+            "entity/tux/step_6"
+        ],
+        "subtitle": "subtitles.tux.step"
+    }
+}
