@@ -1,6 +1,0 @@
-{
-	"parent": "animated_java:item/tux/default/left_wing",
-	"textures": {
-		"0": "tux:entity/gentoo"
-	}
-}

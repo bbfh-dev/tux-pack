@@ -1,1 +1,0 @@
-execute on passengers run function animated_java:tux/zzzzzzzz/animations/run/tree/leaf_0_as_bone

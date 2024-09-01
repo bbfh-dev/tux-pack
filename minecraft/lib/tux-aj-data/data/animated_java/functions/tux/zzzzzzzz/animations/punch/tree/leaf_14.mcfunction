@@ -1,1 +1,0 @@
-execute on passengers run function animated_java:tux/zzzzzzzz/animations/punch/tree/leaf_14_as_bone

@@ -1,3 +1,0 @@
-execute if score @s aj.tux.animation.punch.loop_mode = $aj.loop_mode.loop aj.i run function animated_java:tux/zzzzzzzz/animations/punch/end_loop
-execute if score @s aj.tux.animation.punch.loop_mode = $aj.loop_mode.once aj.i run function animated_java:tux/animations/punch/stop
-execute if score @s aj.tux.animation.punch.loop_mode = $aj.loop_mode.hold aj.i run function animated_java:tux/animations/punch/pause

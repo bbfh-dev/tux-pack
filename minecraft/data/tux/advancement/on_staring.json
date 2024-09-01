@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "minecraft:player",
+                        "looking_at": {
+                            "type": "minecraft:wandering_trader",
+                            "team": "tux"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "tux:player/on_stare_at_tux"
+    }
+}

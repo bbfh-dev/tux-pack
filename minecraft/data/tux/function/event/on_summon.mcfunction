@@ -1,8 +1,13 @@
-execute store result score @s tux.id run scoreboard players add latest tux.id 1
-scoreboard players operation @s tux.player_id = @p tux.player_id
-execute summon wandering_trader run function tux:movement/summon
+function animated_java:tux/animations/idle/play
+execute if score CANCEL_SUMMON tux.tmp matches 1 run return run scoreboard players reset CANCEL_SUMMON tux.tmp
 
-execute unless score DEBUG tux.vars matches 1 run return 0
-tag @s add --this.tux
-execute summon text_display run function debug:tux_info/summon
-tag @s remove --this.tux
+execute store result score @s penguin.id run scoreboard players add latest penguin.id 1
+scoreboard players operation @s player.id = @p player.id
+
+execute summon wandering_trader run function tux:penguin/summon
+
+tag @s add --this.ROOT
+execute summon text_display run function tux:helper/set_label
+tag @s remove --this.ROOT
+
+execute if score DEBUG tux.vars matches 1 summon text_display run function debug:billboard/summon

@@ -1,1 +1,0 @@
-execute on passengers run function animated_java:tux/zzzzzzzz/apply_variant/tux/as_bone

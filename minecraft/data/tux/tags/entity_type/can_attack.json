@@ -1,0 +1,29 @@
+{
+    "values": [
+        "player",
+        "#illager",
+        "iron_golem",
+        "#sensitive_to_smite",
+        "#sensitive_to_bane_of_arthropods",
+        "#sensitive_to_impaling",
+        "#minecraft:raiders",
+        "slime",
+        "magma_cube",
+        "blaze",
+        "creeper",
+        "endermite",
+        "enderman",
+        "ender_dragon",
+        "piglin",
+        "piglin_brute",
+        "zombified_piglin",
+        "zoglin",
+        "wither",
+        "witch",
+        "drowned",
+        "snow_golem",
+        "shulker",
+        "silverfish",
+        "ravager"
+    ]
+}

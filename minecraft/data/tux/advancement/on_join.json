@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "rewards": {
+        "function": "tux:player/on_join"
+    }
+}

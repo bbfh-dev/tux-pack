@@ -1,6 +1,7 @@
 {
     "values": [
+        "tux:tick",
         "animated_java:global/on_tick",
-        "tux:tick"
+        "tux:after_aj_tick"
     ]
 }

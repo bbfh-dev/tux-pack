@@ -1,1 +1,0 @@
-function animated_java:tux/zzzzzzzz/animations/run/tick_animation

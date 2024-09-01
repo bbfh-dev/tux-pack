@@ -1,35 +1,30 @@
 say Loaded Tux datapack (by BubbleFish)
 
-scoreboard objectives add tux.vars dummy
+team add tux "Tux"
+team modify tux seeFriendlyInvisibles false
+team modify tux friendlyFire true
+
 scoreboard objectives add tux.tmp dummy
+scoreboard objectives add tux.vars dummy
 
-scoreboard objectives add tux.id dummy
-scoreboard objectives add tux.player_id dummy
+scoreboard objectives add penguin.id dummy
+scoreboard objectives add penguin.animation dummy
+scoreboard objectives add penguin.animation.prev dummy
+scoreboard objectives add penguin.animation.cooldown dummy
+scoreboard objectives add penguin.movement.task dummy
+scoreboard objectives add penguin.movement.cooldown dummy
+scoreboard objectives add penguin.attack.cooldown dummy
+scoreboard objectives add penguin.shoot.cooldown dummy
+scoreboard objectives add penguin.look_around.cooldown dummy
+scoreboard objectives add penguin.idea_timer dummy
+scoreboard objectives add penguin.mood dummy
+scoreboard objectives add penguin.type dummy
+scoreboard objectives add penguin.stare_timer dummy
 
-scoreboard objectives add tux.animation dummy
-scoreboard objectives add tux.prev_animation dummy
-
-scoreboard objectives add tux.movement_task dummy
-scoreboard objectives add tux.movement_cooldown dummy
-scoreboard objectives add tux.update_count dummy
-scoreboard objectives add tux.prev_update_count dummy
-
-scoreboard objectives add tux.idea_timer dummy
+scoreboard objectives add player.id dummy
+scoreboard objectives add player.traded custom:traded_with_villager
+scoreboard objectives add entity.id dummy
 
 execute if score DEBUG tux.vars matches 1 run function debug:tick
 
-team add arch "Arch"
-team modify arch color aqua
-team modify arch friendlyFire true
-
-team add gentoo "Gentoo"
-team modify gentoo color light_purple
-team modify gentoo friendlyFire true
-
-team add mint "Mint"
-team modify mint color green
-team modify arch friendlyFire true
-
-team add ubuntu "Ubuntu"
-team modify ubuntu color red
-team modify ubuntu friendlyFire true
+forceload add 0 0
