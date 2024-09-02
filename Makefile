@@ -1,4 +1,4 @@
-VERSION=1-0-0
+VERSION=1-0-1
 DATA=./dist/tux_${VERSION}_data_pack
 DATA_ZIP=../tux_${VERSION}_data_pack.zip
 RESOURCE=./dist/tux_${VERSION}_resource_pack
